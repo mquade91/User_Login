@@ -10,8 +10,11 @@ var cookieParser = require("cookie-parser");
 var bodyParser = require("body-parser");
 var session = require("express-session");
 
-//I shouldnt need this code because of line 18?
+
 var configDB = require('./config/database.js');
+
+//configuration(1)
+mongoose.connect(configDB.url);
 
 ////  This is the code in my config/database.js file 
 // module.exports = {
@@ -20,10 +23,7 @@ var configDB = require('./config/database.js');
 
 // };
 
-//configuration(1)
-mongoose.connect(configDB.url);
-
-//configuration(2) is this way better than line ?
+//configuration(2) if i wanted to include everything in my server.js and not have to require on line 14
 // mongoose.Promise = Promise;
 // var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/loginApp";
 // mongoose.connect(MONGODB_URI, {
@@ -41,7 +41,7 @@ app.use(bodyParser());
 app.set('view engine', 'ejs');
 
 //requires for passport
-app.use(session({ secret: 'ilovescotchscotchyscotchscotch' }));
+app.use(session({ secret: 'superSecret' }));
 app.use(passport.initialize());
 app.use(passport.session()); //persisten login sessions
 app.use(flash()); //use connect-flash for flash messages
@@ -51,4 +51,4 @@ require('./app/routes.js')(app, passport); //load our routes
 
 //launch=========
 app.listen(port);
-console.log("App is running on" + port);
+console.log("App is running on PORT: " + port);
