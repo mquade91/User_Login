@@ -1,29 +1,4 @@
 {
-  "name": "user_login",
-  "version": "1.0.0",
-  "description": "Login App",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mquade91/User_Login.git"
-  },
-  "keywords": [
-    "Log",
-    "In"
-  ],
-  "author": "Me",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mquade91/User_Login/issues"
-  },
-  "homepage": "https://github.com/mquade91/User_Login#readme"
-}
-
-
-{
   "name": "node-authentication",
   "main": "server.js",
   "dependencies": {
