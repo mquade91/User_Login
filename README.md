@@ -10,7 +10,7 @@ Technologies Used
   * Bcrypt-nodejs gives us the ability to hash the password.
 
 Reference-style: 
-![alt text][logo]
+![alt text](http://url/to/img.png)
 
 Home Page
 -------------
