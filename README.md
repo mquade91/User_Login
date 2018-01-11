@@ -9,13 +9,13 @@ Technologies Used
   * Connect-flash allows for passing session flashdata messages.
   * Bcrypt-nodejs gives us the ability to hash the password.
 
-Reference-style: 
-![alt text](http://url/to/img.png)
+
 
 Home Page
 -------------
 Home Page allows a USER to choose between 'Local Sign Up' or 'Local Login'
-
+Reference-style: 
+![alt text](http://url/images/Login_Home.png)
 
 Sign Up Page
 -------------
