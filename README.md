@@ -33,4 +33,5 @@ If password is incorrect page will let user know
 
 Profile Page
 -------------
-Once the USER has successfully Signed Up or Logged in this page will render and use ejs to show User ID, User Email, User Password
+Once the USER has successfully Signed Up or Logged in this page will render and use ejs to show User ID, User Email, User Password.
+Log out button will redirect to Home Page
