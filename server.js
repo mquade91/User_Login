@@ -30,8 +30,8 @@ mongoose.connect(configDB.url);
 //     useMongoClient: true
 // });
 
-//have not set up PASSPORT
-//require('./config/passport')(passport);//pass passport for configuration
+// PASSPORT
+require('./config/passport')(passport); //pass passport for configuration
 
 //express application 
 app.use(morgan('dev'));
