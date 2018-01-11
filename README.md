@@ -14,8 +14,9 @@ Technologies Used
 Home Page
 -------------
 Home Page allows a USER to choose between 'Local Sign Up' or 'Local Login'
+
 Reference-style: 
-![alt text](http://url/images/Login_Home.png)
+![Home Page](/images/Login_Home.png)
 
 Sign Up Page
 -------------
