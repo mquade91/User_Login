@@ -1,6 +1,6 @@
-# User_Login
+# User_Login Web App
 
-##Home Page
+Home Page
 -------------
 Home Page allows a USER to choose between 'Local Sign Up' or 'Local Login'
 
