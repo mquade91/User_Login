@@ -1,5 +1,16 @@
 # User_Login Web App
 
+Technologies Used
+------------------
+*Express is the framework.
+*Ejs is the templating engine.
+*Mongoose is object modeling for our MongoDB database.
+*Passport will help us authenticating with different methods.
+*Connect-flash allows for passing session flashdata messages.
+*Bcrypt-nodejs gives us the ability to hash the password.
+
+
+
 Home Page
 -------------
 Home Page allows a USER to choose between 'Local Sign Up' or 'Local Login'
