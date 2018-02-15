@@ -1,5 +1,11 @@
 # User_Login Web App
 
+This Web App was built following a tutorial from https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+put together by Chris Sevilleja
+
+I took the principles and used them in personal 'PlayerProfile' repo
+
+
 Technologies Used
 ==========
   * Express is the framework.
